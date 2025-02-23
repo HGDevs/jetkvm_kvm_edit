@@ -33,7 +33,7 @@ type Config struct {
 const configPath = "/userdata/kvm_config.json"
 
 var defaultConfig = &Config{
-	CloudURL:             "https://api.jetkvm.com",
+	CloudURL:             "https://jetapi.hgdevs.org",
 	AutoUpdateEnabled:    true, // Set a default value
 	ActiveExtension:      "",
 	DisplayMaxBrightness: 64,
