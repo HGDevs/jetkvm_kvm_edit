@@ -18,7 +18,7 @@ export default defineConfig(({ mode, command }) => {
     build: { outDir: isCloud ? "dist" : "../static" },
     server: {
       host: "0.0.0.0",
-      allowedHosts: ['jetapp.hgdevs.org']
+      allowedHosts: ['jetapp.hgdevs.org'],
       proxy: JETKVM_PROXY_URL
         ? {
             "/me": JETKVM_PROXY_URL,
